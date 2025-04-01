@@ -1,0 +1,16 @@
+.navbar{
+    display: grid;
+    border: solid thin green;
+    grid-template-columns: 200px 200px auto 120px;
+}
+
+.icons{
+    display: flex;
+    border: solid thin blue;
+}
+
+.text{
+    display: grid;
+    /* grid-column: 2/4; */
+    border: solid thin pink;
+}
