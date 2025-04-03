@@ -1,16 +1,27 @@
-.navbar{
-    display: grid;
-    border: solid thin green;
-    grid-template-columns: 200px 200px auto 120px;
+body{
+    background-image: url("bilbilder/cool-car-pictures-1440-x-900-uan9qyxr2to6d45c.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
 
-.icons{
-    display: flex;
-    border: solid thin blue;
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 200px 200px; */
+    border: solid thin green;
 }
 
 .text{
-    display: grid;
-    /* grid-column: 2/4; */
     border: solid thin pink;
+    /* grid-column: end; */
+    /* color: aqua; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+
+img{
+    width: 100%;
+    background-image: inherit;
+}
+
