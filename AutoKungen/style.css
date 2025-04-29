@@ -51,3 +51,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
 }
+
+.sellparent{
+  background-color: blue;
+}
+
+.pagani{
+  /* background-color: black; */
+}
