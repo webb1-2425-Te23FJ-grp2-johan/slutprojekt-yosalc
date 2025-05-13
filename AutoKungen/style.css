@@ -1,11 +1,12 @@
 body {
-  /* display: ; */
+  /* background-color: aquamarine; */
 }
 
 .navbar {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(4, 1fr);
+  background-color: aquamarine;
   /* grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px 200px; */
 }
@@ -53,9 +54,13 @@ body {
 }
 
 .sellparent{
-  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
 }
 
-.pagani{
-  /* background-color: black; */
+.sellparent2{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
 }
