@@ -31,3 +31,22 @@
 img{
     margin: 60px;
 }
+
+p{
+  color: black;
+}
+
+.paganifakta{
+  display: flex;
+}
+
+.paganifrågor{
+  display: grid;
+  
+}
+
+.tack{
+  display: flex;
+  justify-content: center;
+  
+}
