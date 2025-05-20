@@ -11,7 +11,7 @@ body {
     grid-template-rows: 200px 200px; */
 }
 
-p {
+a{
   color:black;
 }
 
@@ -65,4 +65,8 @@ p {
   display: flex;
   justify-content: space-around;
   padding-top: 50px;
+}
+
+a:link{
+  text-decoration: none;
 }

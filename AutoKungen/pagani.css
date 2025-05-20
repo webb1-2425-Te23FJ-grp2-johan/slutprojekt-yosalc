@@ -50,3 +50,11 @@ p{
   justify-content: center;
   
 }
+
+a:link{
+  text-decoration: none;
+}
+
+a{
+  color: black;
+}
